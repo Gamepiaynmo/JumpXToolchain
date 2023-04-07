@@ -1,0 +1,14 @@
+D:\GPIAY\Game\300\BExport\data\magic\textures\dian
+D:\GPIAY\Game\300\BExport\data\magic\textures\dilie
+D:\GPIAY\Game\300\BExport\data\magic\textures\kuosan
+D:\GPIAY\Game\300\BExport\data\magic\textures\moxing
+D:\GPIAY\Game\300\BExport\data\magic\textures\shandian
+D:\GPIAY\Game\300\BExport\data\magic\textures\shui
+D:\GPIAY\Game\300\BExport\data\magic\textures\tiaodai
+D:\GPIAY\Game\300\BExport\data\magic\textures\tuxing
+D:\GPIAY\Game\300\BExport\data\magic\textures\ui
+D:\GPIAY\Game\300\BExport\data\magic\textures\xingguang
+D:\GPIAY\Game\300\BExport\data\magic\textures\xuanzhuan
+D:\GPIAY\Game\300\BExport\data\magic\textures\xulie
+D:\GPIAY\Game\300\BExport\data\magic\textures\yanwu
+D:\GPIAY\Game\300\BExport\data\magic\textures\zheshe

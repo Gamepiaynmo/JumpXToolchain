@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetMaterial</class>
+ <widget class="QWidget" name="WidgetMaterial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>300</width>
+    <height>806</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>编辑材质</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetMinimumSize</enum>
+   </property>
+   <item row="0" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QCheckBox" name="alphaTest">
+       <property name="text">
+        <string>ALPHA测试</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QCheckBox" name="alphaBlend">
+       <property name="text">
+        <string>ALPHA混合</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="addMode">
+       <property name="text">
+        <string>加法混合</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QCheckBox" name="twoSided">
+       <property name="text">
+        <string>双面渲染</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="zWriteEnable">
+       <property name="text">
+        <string>写入深度缓冲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="unshaded">
+       <property name="text">
+        <string>不计算光照</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="uvClamp">
+       <property name="text">
+        <string>限制UV</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>材质贴图</string>
+     </property>
+     <property name="buddy">
+      <cstring>textureId</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="textureId"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>UV偏移</string>
+     </property>
+     <property name="buddy">
+      <cstring>uSpeed</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="uSpeed"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="vSpeed"/>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QColorSlider" name="colorBar">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>68</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QCheckBox" name="enableBump">
+     <property name="text">
+      <string>启用凹凸贴图</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>凹凸贴图</string>
+     </property>
+     <property name="buddy">
+      <cstring>bumpTexId</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="bumpTexId"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>凹凸强度</string>
+     </property>
+     <property name="buddy">
+      <cstring>bumpAmount</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="bumpAmount"/>
+   </item>
+   <item row="8" column="0" colspan="2">
+    <widget class="QCheckBox" name="enableSpec">
+     <property name="text">
+      <string>启用高光贴图</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>高光贴图</string>
+     </property>
+     <property name="buddy">
+      <cstring>specTexId</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QComboBox" name="specTexId"/>
+   </item>
+   <item row="10" column="0" colspan="2">
+    <widget class="QCheckBox" name="enableLight">
+     <property name="text">
+      <string>启用光照贴图</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>光照贴图</string>
+     </property>
+     <property name="buddy">
+      <cstring>lightTexId</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QComboBox" name="lightTexId"/>
+   </item>
+   <item row="12" column="0" colspan="2">
+    <widget class="QCheckBox" name="enableCartoon">
+     <property name="text">
+      <string>启用卡通渲染</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="text">
+      <string>环境颜色</string>
+     </property>
+     <property name="buddy">
+      <cstring>ambientColor</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="1">
+    <widget class="QColorPicker" name="ambientColor"/>
+   </item>
+   <item row="14" column="0">
+    <widget class="QLabel" name="label_8">
+     <property name="text">
+      <string>阴影颜色</string>
+     </property>
+     <property name="buddy">
+      <cstring>shadowColor</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="1">
+    <widget class="QColorPicker" name="shadowColor"/>
+   </item>
+   <item row="15" column="0">
+    <widget class="QLabel" name="label_9">
+     <property name="text">
+      <string>环境强度</string>
+     </property>
+     <property name="buddy">
+      <cstring>ambientIntensity</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="1">
+    <widget class="QLineEdit" name="ambientIntensity"/>
+   </item>
+   <item row="16" column="0">
+    <widget class="QLabel" name="label_10">
+     <property name="text">
+      <string>阴影阈值</string>
+     </property>
+     <property name="buddy">
+      <cstring>shadowThreshold</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="1">
+    <widget class="QLineEdit" name="shadowThreshold"/>
+   </item>
+   <item row="17" column="0">
+    <widget class="QLabel" name="label_11">
+     <property name="text">
+      <string>高光平滑</string>
+     </property>
+     <property name="buddy">
+      <cstring>specularSmoothness</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="1">
+    <widget class="QLineEdit" name="specularSmoothness"/>
+   </item>
+   <item row="18" column="0">
+    <widget class="QLabel" name="label_12">
+     <property name="text">
+      <string>高光贴图</string>
+     </property>
+     <property name="buddy">
+      <cstring>specTextureId</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="1">
+    <widget class="QComboBox" name="specTextureId"/>
+   </item>
+   <item row="19" column="0">
+    <widget class="QLabel" name="label_13">
+     <property name="text">
+      <string>阴影贴图</string>
+     </property>
+     <property name="buddy">
+      <cstring>shadowTextureId</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="1">
+    <widget class="QComboBox" name="shadowTextureId"/>
+   </item>
+   <item row="20" column="0" colspan="2">
+    <widget class="QCheckBox" name="enableDissolve">
+     <property name="text">
+      <string>启用溶解特效</string>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="0">
+    <widget class="QLabel" name="label_14">
+     <property name="text">
+      <string>溶解贴图</string>
+     </property>
+     <property name="buddy">
+      <cstring>dissolveTextureId</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="1">
+    <widget class="QComboBox" name="dissolveTextureId"/>
+   </item>
+   <item row="22" column="0">
+    <widget class="QLabel" name="label_15">
+     <property name="text">
+      <string>溶解颜色</string>
+     </property>
+     <property name="buddy">
+      <cstring>dissolveColor</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="1">
+    <widget class="QColorPicker" name="dissolveColor"/>
+   </item>
+   <item row="23" column="0">
+    <widget class="QLabel" name="label_16">
+     <property name="text">
+      <string>边缘颜色</string>
+     </property>
+     <property name="buddy">
+      <cstring>dissolveEdgeColor</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="1">
+    <widget class="QColorPicker" name="dissolveEdgeColor"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_17">
+     <property name="text">
+      <string>UV分块</string>
+     </property>
+     <property name="buddy">
+      <cstring>uTile</cstring>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="uTile"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="vTile"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QColorPicker</class>
+   <extends>QLineEdit</extends>
+   <header location="global">QColorPicker.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QColorSlider</class>
+   <extends>QLineEdit</extends>
+   <header location="global">QColorSlider.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>alphaBlend</tabstop>
+  <tabstop>alphaTest</tabstop>
+  <tabstop>twoSided</tabstop>
+  <tabstop>addMode</tabstop>
+  <tabstop>unshaded</tabstop>
+  <tabstop>zWriteEnable</tabstop>
+  <tabstop>uvClamp</tabstop>
+  <tabstop>textureId</tabstop>
+  <tabstop>uSpeed</tabstop>
+  <tabstop>vSpeed</tabstop>
+  <tabstop>uTile</tabstop>
+  <tabstop>vTile</tabstop>
+  <tabstop>colorBar</tabstop>
+  <tabstop>enableBump</tabstop>
+  <tabstop>bumpTexId</tabstop>
+  <tabstop>bumpAmount</tabstop>
+  <tabstop>enableSpec</tabstop>
+  <tabstop>specTexId</tabstop>
+  <tabstop>enableLight</tabstop>
+  <tabstop>lightTexId</tabstop>
+  <tabstop>enableCartoon</tabstop>
+  <tabstop>ambientColor</tabstop>
+  <tabstop>shadowColor</tabstop>
+  <tabstop>ambientIntensity</tabstop>
+  <tabstop>shadowThreshold</tabstop>
+  <tabstop>specularSmoothness</tabstop>
+  <tabstop>specTextureId</tabstop>
+  <tabstop>shadowTextureId</tabstop>
+  <tabstop>enableDissolve</tabstop>
+  <tabstop>dissolveTextureId</tabstop>
+  <tabstop>dissolveColor</tabstop>
+  <tabstop>dissolveEdgeColor</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

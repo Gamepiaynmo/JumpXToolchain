@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/JumpXEditor">
+        <file>icon.ico</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>icon/close.png</file>
+        <file>icon/color.png</file>
+        <file>icon/copy.png</file>
+        <file>icon/create.png</file>
+        <file>icon/delete.png</file>
+        <file>icon/edit.png</file>
+        <file>icon/edit-file.png</file>
+        <file>icon/export.png</file>
+        <file>icon/file.png</file>
+        <file>icon/import.png</file>
+        <file>icon/invert.png</file>
+        <file>icon/quit.png</file>
+        <file>icon/refresh.png</file>
+        <file>icon/rotate.png</file>
+        <file>icon/save.png</file>
+        <file>icon/save-as.png</file>
+        <file>icon/translate.png</file>
+        <file>icon/combine.png</file>
+        <file>icon/scale.png</file>
+        <file>icon/flip.png</file>
+        <file>icon/down.png</file>
+        <file>icon/up.png</file>
+        <file>icon/showhide.png</file>
+        <file>shaders/bone_frag.glsl</file>
+        <file>shaders/bone_geom.glsl</file>
+        <file>shaders/bone_vert.glsl</file>
+        <file>shaders/line_frag.glsl</file>
+        <file>shaders/line_vert.glsl</file>
+        <file>shaders/model_frag.glsl</file>
+        <file>shaders/model_vert.glsl</file>
+        <file>shaders/norm_frag.glsl</file>
+        <file>shaders/norm_geom.glsl</file>
+        <file>shaders/norm_vert.glsl</file>
+        <file>shaders/part_frag.glsl</file>
+        <file>shaders/part_vert.glsl</file>
+        <file>shaders/ribbon_frag.glsl</file>
+        <file>shaders/ribbon_vert.glsl</file>
+    </qresource>
+</RCC>
