@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>260</width>
-    <height>223</height>
+    <height>160</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -41,7 +41,7 @@
      <item>
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;跳跃X模型编辑工具&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;感谢三位朋友一直以来的支持^_^&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://space.bilibili.com/8026658/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;青宏&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://space.bilibili.com/9217207/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;小星&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://space.bilibili.com/6419297/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;梦梦&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;作者：&lt;a href=&quot;https://space.bilibili.com/9434241/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;秋风&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;跳跃X模型编辑工具&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;本工具已开源在：&lt;a href=&quot;https://github.com/Gamepiaynmo/JumpXToolchain&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;Github&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;作者：&lt;a href=&quot;https://space.bilibili.com/9434241/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;秋风&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="wordWrap">
         <bool>true</bool>
