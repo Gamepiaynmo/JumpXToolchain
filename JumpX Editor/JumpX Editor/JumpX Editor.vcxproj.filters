@@ -41,12 +41,6 @@
     <ClCompile Include="SplashScreen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bf\bf_enc.cpp">
-      <Filter>Source Files\bf</Filter>
-    </ClCompile>
-    <ClCompile Include="bf\bf_skey.cpp">
-      <Filter>Source Files\bf</Filter>
-    </ClCompile>
     <ClCompile Include="CharWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -189,12 +183,6 @@
     <Filter Include="Header Files\Zlib">
       <UniqueIdentifier>{85e5a580-da21-4e5b-aa45-7e416c44716f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\bf">
-      <UniqueIdentifier>{fb97d467-dcac-4a91-91be-85abba386a42}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\bf">
-      <UniqueIdentifier>{14080d15-6f67-4565-b804-7fbeef91d7b9}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -244,15 +232,6 @@
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_DialogAbout.h">
       <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="bf\bf_locl.h">
-      <Filter>Header Files\bf</Filter>
-    </ClInclude>
-    <ClInclude Include="bf\bf_pi.h">
-      <Filter>Header Files\bf</Filter>
-    </ClInclude>
-    <ClInclude Include="bf\blowfish.h">
-      <Filter>Header Files\bf</Filter>
     </ClInclude>
     <ClInclude Include="JumpX.h">
       <Filter>Header Files</Filter>
