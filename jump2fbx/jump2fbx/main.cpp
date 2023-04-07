@@ -200,11 +200,11 @@ void FBX2Jump(int argc, char** argv) {
 }
 
 int main(int argc, char** argv) {
-	freopen("out.txt", "w", stdout);
-	freopen("debug.txt", "w", stderr);
-	//Jump2FBX(argc, argv);
+	// freopen("out.txt", "w", stdout);
+	// freopen("debug.txt", "w", stderr);
+	Jump2FBX(argc, argv);
 	//FBX2Jump(argc, argv);
-	IterateAllXFiles(false);
+	// IterateAllXFiles(false);
 
 	//ConvertToFbx("000.x", "000.fbx");
 	//ConvertToX("089_phos.fbx", "089_phos.x");
